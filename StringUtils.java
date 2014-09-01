@@ -1,9 +1,16 @@
 
 public class StringUtils {
 
-	public static int countMatches(String str, String sub) {
+	public static int countMatches(String haystack, char needle) {
 
-		return str.length() - str.replaceAll(sub, "").length();
+	    int count = 0;
+		for (int i=0; i < haystack.length(); i++) {
+			if (haystack.charAt(i) == needle) {
+				count++;
+			}
+		}
+
+		return count;
 
 	}
 

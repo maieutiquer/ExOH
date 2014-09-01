@@ -16,8 +16,8 @@ public class ExOH {
 	
 	public static boolean ExOh(String str) {
 
-		int totalO = StringUtils.countMatches(str, "o");
-		int totalX = StringUtils.countMatches(str, "x");
+		int totalO = StringUtils.countMatches(str, 'o');
+		int totalX = StringUtils.countMatches(str, 'x');
 
 		if (totalO == totalX) {
 			return true;
