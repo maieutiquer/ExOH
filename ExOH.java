@@ -3,6 +3,7 @@ public class ExOH {
 
 	public static void main(String[] args) {
 
+		System.out.println(ExOh(""));
 		System.out.println(ExOh("o"));
 		System.out.println(ExOh("xo"));
 		System.out.println(ExOh("xx"));
