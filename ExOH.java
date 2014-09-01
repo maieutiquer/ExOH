@@ -13,7 +13,13 @@ public class ExOH {
 		System.out.println(ExOh("oooxoo"));
 
 	}
-	
+
+	/**
+	 * Checks whether there is an equal number of x's and o's in a string.
+	 * 
+	 * @param str the string to check
+	 * @return true if there is an equal number of x's and o's
+	 */
 	public static boolean ExOh(String str) {
 
 		int totalO = StringUtils.countMatches(str, 'o');
