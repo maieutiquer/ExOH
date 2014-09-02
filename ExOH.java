@@ -22,7 +22,7 @@ public class ExOH {
 	 * 
 	 * @param str the string to be checked and printed
 	 */
-	public static void checkString(String str) {
+	private static void checkString(String str) {
 
 		System.out.println("ExOh('" + str + "') - " + ExOh(str));
 
@@ -34,7 +34,7 @@ public class ExOH {
 	 * @param str the string to check
 	 * @return true if there is an equal number of x's and o's
 	 */
-	public static boolean ExOh(String str) {
+	private static boolean ExOh(String str) {
 
 		int totalO = StringUtils.countMatches(str, 'o');
 		int totalX = StringUtils.countMatches(str, 'x');
