@@ -3,17 +3,31 @@ public class ExOH {
 
 	public static void main(String[] args) {
 
-		System.out.println(ExOh(""));
-		System.out.println(ExOh("o"));
-		System.out.println(ExOh("xo"));
-		System.out.println(ExOh("xx"));
-		System.out.println(ExOh("oo"));
-		System.out.println(ExOh("xoox"));
-		System.out.println(ExOh("xoxoox"));
-		System.out.println(ExOh("oooxoo"));
+		checkString("");
+		checkString("o");
+		checkString("xo");
+		checkString("xx");
+		checkString("oo");
+		checkString("xoox");
+		checkString("xoxoox");
+		checkString("oooxoo");
 
 	}
 
+	/**
+	 * Prints the given string and its ExOh() result.
+	 * <p>
+	 * Example:<br>
+	 * ExOh('xoxoox') - true
+	 * 
+	 * @param str the string to be checked and printed
+	 */
+	public static void checkString(String str) {
+
+		System.out.println("ExOh('" + str + "') - " + ExOh(str));
+
+	}
+	
 	/**
 	 * Checks whether there is an equal number of x's and o's in a string.
 	 * 
