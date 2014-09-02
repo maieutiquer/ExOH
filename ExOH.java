@@ -36,10 +36,10 @@ public class ExOH {
 	 */
 	private static boolean ExOh(String str) {
 
-		int totalO = StringUtils.countMatches(str, 'o');
 		int totalX = StringUtils.countMatches(str, 'x');
+		int totalO = StringUtils.countMatches(str, 'o');
 
-		return totalO == totalX;
+		return totalX == totalO;
 
 	}
 
