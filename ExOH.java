@@ -39,11 +39,7 @@ public class ExOH {
 		int totalO = StringUtils.countMatches(str, 'o');
 		int totalX = StringUtils.countMatches(str, 'x');
 
-		if (totalO == totalX) {
-			return true;
-		} else {
-			return false;
-		}
+		return totalO == totalX;
 
 	}
 
