@@ -27,7 +27,7 @@ public class ExOH {
 		System.out.println("ExOh('" + str + "') - " + exOh(str));
 
 	}
-	
+
 	/**
 	 * Checks whether there is an equal number of x's and o's in a string.
 	 * 

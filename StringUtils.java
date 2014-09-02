@@ -1,3 +1,4 @@
+
 /**
  * Operations on String.
  * 
@@ -15,7 +16,7 @@ public class StringUtils {
 	 */
 	public static int countMatches(String haystack, char needle) {
 
-	    int count = 0;
+		int count = 0;
 		for (int i=0; i < haystack.length(); i++) {
 			if (haystack.charAt(i) == needle) {
 				// every time a match is found, increment counter
